@@ -1,6 +1,6 @@
 import brillo from "../assets/star.png";
 import boladisco from "../assets/boladiscoN.png";
-import dressCode from "../assets/dresscodeN.png";
+import dressCode from "../assets/dresscode.png";
 import Notamusical from "../assets/disco.png";
 import copas from "../assets/copasN.png";
 import asistencia from "../assets/invitacionN.png";
@@ -66,7 +66,7 @@ const Varios = () => {
               <img src={brillo} alt="" className="brillo brillo-bottom" />
             </aside>
             <aside className="col-xs-12 text-center dressCode mb-5">
-              <img src={dressCode} alt="" width={100} />
+              <img src={dressCode} alt="" width={130} />
               <h4
                 data-aos="fade-right"
                 data-aos-offset="300"

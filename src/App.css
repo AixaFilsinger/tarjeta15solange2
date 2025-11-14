@@ -36,21 +36,28 @@ body{
   background-size: cover;
 }
 
-
+.portada{
+  background: url(/src/assets/fondo1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #8D9F6C;
-  margin-bottom: 18rem;
-  position: relative;
-  z-index: 2;
+  margin-bottom: 6rem;
+  
+  
 }
 .linea {
   position: relative;
   display: inline-block; /* para que el contenedor se ajuste al contenido */
   margin-bottom: 2rem;
-  z-index: 2;
+  z-index: 1;
+   margin-right: 1.5rem;
 }
 
 .linea img {
@@ -74,13 +81,10 @@ body{
 .linea .años {
   bottom: 7px;
   right: -65px;
+ 
 }
 
-.portada {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
+
 
 /* Imágenes laterales decorativas */
 .decor {
@@ -122,12 +126,13 @@ body{
 }
 
 .repro{
-  margin-top: 10rem;
-  height: 18rem;
+  margin-top: 5rem;
+  height:50%
   
 }
 .frase{
-  margin-bottom: 8rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 .frase p{
   font-family: 'Cormorant Garamond', serif;
@@ -256,9 +261,10 @@ small{
 .fin {
   height: 100vh;
   position: relative;
-  background: url(./assets/Ini.png);
+  background: url(./assets/fondofinjpg.jpg);
   background-size: cover;
   background-position: center;
+  width: 100%;
   overflow: hidden; /* para que el overlay no se escape */
 }
 

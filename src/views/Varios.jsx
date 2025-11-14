@@ -32,8 +32,8 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                24 de Octubre <br />
-                22hs
+                12 de Diciembre <br />
+                22hs a 5hs
               </p>
             </aside>
             <aside className="col-xs-12 text-center donde mb-4 position-relative">
@@ -51,9 +51,7 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Salón Rancho Don José
-                <br />
-                Alto verde.
+                Salón La Fontana<br/> di Trevi Eventos
               </p>
               <button
                 className="btn-varios mt-3 mb-5"
@@ -82,7 +80,7 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Elegante Sport
+                Gala
                 <br /> Evitar el color verde
               </p>
               <div className="color-palette">
@@ -126,20 +124,14 @@ const Varios = () => {
                 data-aos-easing="ease-in-sine"
               >
                 Soñé con este día y me gustaría vivirlo con quienes más
-                quiero...
+                quiero...<br/>
+                Por favor ser puntuales para poder presenciar la entrada de la quinceañera
               </p>
               <button
                 className="btn-varios mt-3 mb-2"
-                onClick={() => window.open("https://wa.link/4rs19n")}
+                onClick={() => window.open("https://wa.link/vw6121")}
               >
-                Confirmar a Mamá Pilar
-              </button>
-              <p>o</p>
-              <button
-                className="btn-varios mt-2 mb-5"
-                onClick={() => window.open("https://wa.link/c9xepb")}
-              >
-                Confirmar a Pilar
+                Confirmar asistencia
               </button>
             </aside>
             <aside className="col-xs-12 text-center regalo mb-5">
@@ -171,12 +163,12 @@ const Varios = () => {
 
                   {/* Los <p> ahora sí se ven */}
                   <p className="mb-1">
-                    <strong>Alias:</strong> natalia.761.sofa.mp
+                    <strong>Alias:</strong> maiagomez101
                   </p>
                   <p className="mb-3">
                     <strong>A nombre de:</strong>
                     <br />
-                    Natalia René Delgado
+                    Maia Gómez
                   </p>
 
                   <button
@@ -215,7 +207,7 @@ const Varios = () => {
       <article className=" fin d-flex flex-column justify-content-center align-items-center position-relative">
         <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4 data-aos="zoom-in-down">¡No podes faltar!</h4>
-        <h2 data-aos="zoom-in-down">Pilar</h2>
+        <h2 data-aos="zoom-in-down">Maia</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>

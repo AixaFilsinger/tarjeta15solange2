@@ -30,7 +30,7 @@ const ReproductorMusic = () => {
       </button>
 
       {/* 🎧 Audio */}
-      <audio ref={audioRef} src="/music/Ayrton.mp3" preload="auto"></audio>
+      <audio ref={audioRef} src="/music/mabelle.mp3" preload="auto"></audio>
     </section>
   );
 };

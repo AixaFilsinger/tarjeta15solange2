@@ -1,11 +1,11 @@
 import brillo from "../assets/star.png";
 import boladisco from "../assets/boladiscoN.png";
 import dressCode from "../assets/dresscode.png";
-import Notamusical from "../assets/disco.png";
+import circulo from "../assets/circulo.png";
 import copas from "../assets/copasN.png";
 import asistencia from "../assets/invitacionN.png";
 import regalo from "../assets/regaloN.png";
-import qr from "../assets/qr.jpeg";
+
 
 import { useState } from "react";
 
@@ -81,13 +81,16 @@ const Varios = () => {
                 data-aos-easing="ease-in-sine"
               >
                 Gala
-                <br /> Evitar el color verde
+                <br /> Evitar gama de verdes y dorado
               </p>
-              <div className="color-palette">
+              {/*<div className="color-palette">
                 <div className="color-circle verde" title="Verde"></div>
+              </div>*/}
+              <div>
+                <img src={circulo} alt="" width={100} />
               </div>
             </aside>
-            <aside className="col-xs-12 text-center playlist mb-4">
+           {/* <aside className="col-xs-12 text-center playlist mb-4">
               <img src={Notamusical} alt="" width={150} />
               <h4
                 className="fs-1 mt-5"
@@ -114,7 +117,7 @@ const Varios = () => {
               >
                 Sugerir canción
               </button>
-            </aside>
+            </aside>*/}
             <aside className="col-xs-12 text-center asistencia mb-4">
               <img src={asistencia} alt="" width={100} />
               <h4 className="mt-5">Asistencia</h4>
@@ -133,6 +136,7 @@ const Varios = () => {
               >
                 Confirmar asistencia
               </button>
+              <p>Confirmar hasta el 1 de Diciembre</p>
             </aside>
             <aside className="col-xs-12 text-center regalo mb-5">
               <img src={regalo} alt="" width={100} />
@@ -180,7 +184,7 @@ const Varios = () => {
                 </div>
               )}
             </aside>
-            <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+           {/* <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
               <img src={brillo} alt="" className="brillo brillo-top" />
 
               <h4
@@ -199,16 +203,19 @@ const Varios = () => {
                 Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos
                 acá!
               </p>
-            </aside>
+            </aside>*/}
           </article>
         </section>
       </article>
 
       <article className=" fin d-flex flex-column justify-content-center align-items-center position-relative">
-        <img src={brillo} alt="" className="brillo brillo-top1" />
+       
+         <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4 data-aos="zoom-in-down">¡No podes faltar!</h4>
         <h2 data-aos="zoom-in-down">Maia</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
+      
+       
       </article>
     </section>
   );

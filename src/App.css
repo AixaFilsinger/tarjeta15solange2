@@ -43,16 +43,30 @@ body{
   min-height: 100vh;
   width: 100%;
 }
+.portada::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .portada h1{
   font-family: 'Amoresa', cursive;
   font-size: 5rem;
-  color: #8D9F6C;
-  margin-bottom: 6rem;
-  
+ /* color: #8D9F6C;*/
+ color: white;
+ /* margin-bottom: 6rem;*/
+  position: relative;
+  z-index: 1;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   
 }
 .linea {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   position: relative;
   display: inline-block; /* para que el contenedor se ajuste al contenido */
   margin-bottom: 2rem;
@@ -68,7 +82,7 @@ body{
 .linea h2 {
   font-size: 3rem;
   position: absolute;
-  color: black; /* o el color que necesites */
+  color: white; /* o el color que necesites */
   font-family: 'Amoresa', cursive; /* o la fuente que uses */
   margin: 0;
   padding: 0;
@@ -266,6 +280,7 @@ small{
   background-position: center;
   width: 100%;
   overflow: hidden; /* para que el overlay no se escape */
+  padding-bottom: 10rem;
 }
 
 .fin::before {
@@ -276,6 +291,7 @@ small{
   width: 100%;
   height: 100%;
   z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .fin h2,
@@ -287,13 +303,15 @@ small{
 }
 .fin h4{
  font-family: "Nefelibata", cursive;
- color: rgb(212, 175, 55);
+/* color: rgb(212, 175, 55);*/
+color: white;
+/*text-shadow: 2px 2px 4px gold;*/
  font-size: 40px;
  margin-bottom: 80px;
 }
 .fin h2{
   font-family: 'Amoresa', cursive;
-  color: rgb(212, 175, 55);
+  color: white;
   font-weight: 300;
   font-size: 60px;
   margin: 0;

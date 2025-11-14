@@ -1,8 +1,8 @@
-import quince from "../assets/15.png";
+import quince from "../assets/Xv.png";
 
 const Portada = () => {
   return (
-    <section className="d-flex flex-column justify-content-end align-items-center  portada">
+    <section className="d-flex flex-column justify-content-center align-items-center  portada">
       <aside className="linea">
         <h2 className="enfoque mis">
           {"mis".split("").map((letra, i) => (

@@ -6,7 +6,6 @@ import copas from "../assets/copasN.png";
 import asistencia from "../assets/invitacionN.png";
 import regalo from "../assets/regaloN.png";
 
-
 import { useState } from "react";
 
 const Varios = () => {
@@ -32,8 +31,8 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                12 de Diciembre <br />
-                22hs a 5hs
+                19 de Diciembre <br />
+                13:00hs a 18:30hs
               </p>
             </aside>
             <aside className="col-xs-12 text-center donde mb-4 position-relative">
@@ -51,14 +50,14 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Salón La Fontana<br/> di Trevi Eventos
+                Rosales salón y eventos
+                <br />
+                Tafí viejo
               </p>
               <button
                 className="btn-varios mt-3 mb-5"
                 onClick={() =>
-                  window.open(
-                    "https://maps.app.goo.gl/qBEWLp6ANWXYVQcb6"
-                  )
+                  window.open("https://share.google/nzeFaPk8vbgny6qxA")
                 }
               >
                 CÓMO LLEGAR
@@ -80,17 +79,16 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Gala
-                <br /> Evitar gama de verdes y dorado
+                Elegante sport
+                <br />
+                ¡No olvides traer tu traje de baño!
+                <br /> Evitar el color verde
               </p>
-              {/*<div className="color-palette">
+              <div className="color-palette">
                 <div className="color-circle verde" title="Verde"></div>
-              </div>*/}
-              <div>
-                <img src={circulo} alt="" width={100} />
               </div>
             </aside>
-           {/* <aside className="col-xs-12 text-center playlist mb-4">
+            {/* <aside className="col-xs-12 text-center playlist mb-4">
               <img src={Notamusical} alt="" width={150} />
               <h4
                 className="fs-1 mt-5"
@@ -126,17 +124,18 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Soñé con este día y me gustaría vivirlo con quienes más
-                quiero...<br/>
-                Por favor ser puntuales para poder presenciar la entrada de la quinceañera
+                Soñé con este día y me encantaría compartirlo con quienes son
+                parte de mi vida…
+                <br />
+                Es sorpresa, así que guardemos el secreto.🎉🤭
               </p>
               <button
-                className="btn-varios mt-3 mb-2"
-                onClick={() => window.open("https://wa.link/vw6121")}
+                className="btn-varios mt-2 mb-2"
+                onClick={() => window.open("https://wa.link/zepfud")}
               >
                 Confirmar asistencia
               </button>
-              <p>Confirmar hasta el 1 de Diciembre</p>
+              <p>Confirmar hasta el 16 de Diciembre</p>
             </aside>
             <aside className="col-xs-12 text-center regalo mb-5">
               <img src={regalo} alt="" width={100} />
@@ -167,12 +166,12 @@ const Varios = () => {
 
                   {/* Los <p> ahora sí se ven */}
                   <p className="mb-1">
-                    <strong>Alias:</strong> maiagomez101
+                    <strong>Alias:</strong> soll.010
                   </p>
                   <p className="mb-3">
                     <strong>A nombre de:</strong>
                     <br />
-                    Maia Gómez
+                    Solange
                   </p>
 
                   <button
@@ -184,7 +183,7 @@ const Varios = () => {
                 </div>
               )}
             </aside>
-           {/* <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+            {/* <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
               <img src={brillo} alt="" className="brillo brillo-top" />
 
               <h4
@@ -209,13 +208,10 @@ const Varios = () => {
       </article>
 
       <article className=" fin d-flex flex-column justify-content-center align-items-center position-relative">
-       
-         <img src={brillo} alt="" className="brillo brillo-top1" />
+        <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4 data-aos="zoom-in-down">¡No podes faltar!</h4>
-        <h2 data-aos="zoom-in-down">Maia</h2>
+        <h2 data-aos="zoom-in-down">Solange</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
-      
-       
       </article>
     </section>
   );

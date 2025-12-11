@@ -171,7 +171,7 @@ const Varios = () => {
                   <p className="mb-3">
                     <strong>A nombre de:</strong>
                     <br />
-                    Solange
+                    Solange Elizabeth Lescano
                   </p>
 
                   <button

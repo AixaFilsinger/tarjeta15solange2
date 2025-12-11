@@ -57,7 +57,7 @@ const Varios = () => {
               <button
                 className="btn-varios mt-3 mb-5"
                 onClick={() =>
-                  window.open("https://share.google/nzeFaPk8vbgny6qxA")
+                  window.open("https://maps.app.goo.gl/GVSJsyh7tiVsxzRm7")
                 }
               >
                 CÓMO LLEGAR
@@ -127,7 +127,7 @@ const Varios = () => {
                 Soñé con este día y me encantaría compartirlo con quienes son
                 parte de mi vida…
                 <br />
-                Es sorpresa, así que guardemos el secreto.🎉🤭
+                Es sorpresa, así que guardemos el secreto.
               </p>
               <button
                 className="btn-varios mt-2 mb-2"

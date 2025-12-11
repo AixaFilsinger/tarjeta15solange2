@@ -65,6 +65,14 @@ body{
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   
 }
+.sorpresa{
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 0.5;
+  font-weight: 500;
+  color: rgb(212, 175, 55);
+  
+}
 .linea {
    margin-top: 8rem;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);

@@ -1,7 +1,6 @@
 import brillo from "../assets/star.png";
 import boladisco from "../assets/boladiscoN.png";
 import dressCode from "../assets/dresscode.png";
-import circulo from "../assets/circulo.png";
 import copas from "../assets/copasN.png";
 import asistencia from "../assets/invitacionN.png";
 import regalo from "../assets/regaloN.png";
@@ -127,7 +126,7 @@ const Varios = () => {
                 Soñé con este día y me encantaría compartirlo con quienes son
                 parte de mi vida…
                 <br />
-                Es sorpresa, así que guardemos el secreto.
+                <span className="fw-semibold sorpresa">¡Es una fiesta sorpresa! Por favor, no se lo cuenten a la quinceañera</span>
               </p>
               <button
                 className="btn-varios mt-2 mb-2"
